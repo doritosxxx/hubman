@@ -1,0 +1,39 @@
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    background-color: var(--color-background);
+
+    /* 10 px */
+    font-size: 62.5%;
+}
+
+a {
+    all: unset;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (width >= 720px) {
+    html {
+        /* font-size: 18px; */
+    }
+}
+
+@media only screen and (width >= 960px) {
+    html {
+        /* font-size: 20px; */
+    }
+}
+
+@media only screen and (width >= 1240px) {
+    html {
+        /* font-size: 24px; */
+    }
+}

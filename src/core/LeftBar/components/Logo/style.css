@@ -1,0 +1,7 @@
+.left-bar__logo {
+    height: 13.0rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

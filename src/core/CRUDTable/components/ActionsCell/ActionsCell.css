@@ -1,0 +1,20 @@
+.actions-cell__container {
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 100%;
+
+    color: var(--color-text)
+}
+
+.actions-cell__icon-container {
+    width: 2.4rem;
+    height: 2.4rem;
+
+    cursor: pointer;
+}
+
+.actions-cell__icon {
+    width: 100%;
+    height: 100%;
+}

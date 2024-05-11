@@ -1,0 +1,30 @@
+.form__container {
+    border-radius: 1.6rem;
+
+    background-color: var(--color-text-white);
+    overflow: hidden;
+
+    box-shadow: 4px 4px 4px 0 rgb(0 0 0 / 25%);
+}
+
+.form__header {
+    height: 10.0rem;
+    padding: 0 4.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--color-primary);
+    color: var(--color-text-white);
+}
+
+.form__header-separator {
+    flex-grow: 1;
+}
+
+.form__inputs-container {
+    padding: 3.0rem;
+    display: flex;
+    flex-direction: column;
+}

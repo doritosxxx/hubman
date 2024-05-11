@@ -1,0 +1,82 @@
+.menu-item__container {
+    height: 10.0rem;
+    padding: 1.6rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-item__container svg {
+    color: var(--color-text-white);
+}
+
+.menu-item__container:hover {
+    background-color: var(--color-text-white);
+    color: var(--color-primary);
+}
+
+.menu-item__container:hover svg {
+    color: var(--color-primary);
+}
+
+.menu-item__icon {
+    margin-right: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item--static {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item--editable {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item__edit-button {
+    width: 3.0rem;
+    height: 3.0rem;
+    margin-left: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item__editable_text {
+    width: 100%;
+    background-color: unset;
+    border: unset;
+    color: unset;
+    padding-left: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.menu-item__edit-button--edit {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 50ms opacity;
+}
+    
+.menu-item__edit-button--edit:hover {
+    opacity: 1;
+}
+
+.menu-item__edit-button--submit {
+    border: unset;
+    background-color: unset;
+}

@@ -1,0 +1,45 @@
+.toggle__root {
+    position: relative;
+    width: 6.6rem;
+    height: 3.4rem;
+    border-radius: 1.7rem;
+
+    background-color: var(--color-tertiary);
+    box-shadow: 0 0.4rem 0.4rem 0 rgb(0 0 0 / 25%) inset;
+}
+
+.toggle__circle {
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+    transition: 100ms left;
+
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    box-shadow: 0 0.4rem 0.4rem 0 rgb(0 0 0 / 25%);
+}
+
+.toggle__circle.enabled {
+    left: 3.5rem;
+}
+
+.toggle__inner-circle {
+    width: 2.0rem;
+    height: 2.0rem;
+    border-radius: 1.0rem;
+
+    transition: 100ms opacity;
+    opacity: 1;
+    background-color: var(--color-tertiary);
+    box-shadow: 0 0.4rem 0.4rem 0 rgb(0 0 0 / 25%) inset;
+}
+
+.toggle__inner-circle.enabled {
+    opacity: 0;
+}

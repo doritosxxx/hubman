@@ -1,0 +1,17 @@
+.error-fallback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    background-color: var(--color-background)
+}
+
+.error-fallback__title {
+    color: var(--color-primary);
+}
+
+.error-fallback__reset-button {
+    margin-top: 2.0rem;
+}

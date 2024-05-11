@@ -1,0 +1,19 @@
+.header__container {
+    min-height: 11.0rem;
+    max-height: 11.0rem;
+
+    padding: 3.0rem;
+
+    background-color: var(--color-text-white);
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 25%);
+
+    display: flex;
+    align-items: center;
+}
+
+.header__text {
+    display: inline-block;
+    color: var(--color-text);
+
+    margin-right: 2.0rem;
+}

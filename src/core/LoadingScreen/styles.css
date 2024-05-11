@@ -1,0 +1,7 @@
+.loading_screen__root {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

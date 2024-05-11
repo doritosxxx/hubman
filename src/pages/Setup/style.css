@@ -1,0 +1,15 @@
+.workspace__root {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+    
+.workspace__viewport {
+    height: 100%;
+    overflow: scroll;
+}
+
+.workspace__viewport__placeholder {
+    /* Tabs height */
+    height: 10.0rem;
+}

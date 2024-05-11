@@ -1,0 +1,61 @@
+.device-status__container {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.device-status__aligner {
+    position: absolute;
+    z-index: 2;
+    top: -2.0rem;
+    left: 4.0rem;
+}
+
+.device-failed-checks__container {
+    min-width: 17.5rem;
+    max-width: 35rem;
+
+    background-color: var(--color-background);
+    border: 0.2rem solid var(--color-primary);
+    border-radius: 0.4rem;
+}
+
+/* arrow */
+.device-failed-checks__container::after {
+    content: "";
+
+    position: absolute;
+    width: 1.6rem;
+    height: 1.6rem;
+
+    top: 0;
+    left: 0;
+    transform-origin: center center;
+    transform: translate(-50%, 100%) rotate(45deg);
+
+    background-color: var(--color-background);
+
+    border-left: 0.2rem solid var(--color-primary);
+    border-bottom: 0.2rem solid var(--color-primary);
+    border-radius: 0.2rem;
+}
+
+.device-failed-checks__item {
+    min-height: 4.0rem;
+
+    padding: 0 1.0rem;
+}
+
+.device-failed-checks__label {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.device-failed-checks__description {
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    font-weight: 300;
+}

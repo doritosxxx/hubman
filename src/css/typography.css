@@ -1,0 +1,51 @@
+body {
+    color: var(--color-text);
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.text--logo {
+    font-family: Rubik, Roboto;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.0rem;
+}
+
+.text--header {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.0rem;
+
+    /* color: var(--color-text-white); */
+}
+
+.text--menu-item {
+    font-family: Rubik, Roboto;
+    font-weight: 400;
+    font-size: 2.0rem;
+}
+
+.text--button {
+    font-family: Rubik, Roboto;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+
+    /* color: var(--color-text-white); */
+}
+
+.text--input__title {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}

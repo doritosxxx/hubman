@@ -1,0 +1,11 @@
+.left-bar__container {
+    background-color: var(--color-primary);
+
+    height: 100%;
+    width: 25.6rem;
+
+    display: flex;
+    flex-direction: column;
+
+    color: var(--color-text-white);
+}
